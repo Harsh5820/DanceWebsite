@@ -1,0 +1,23 @@
+doctype html
+html
+    head 
+        title Harsh Dance Academy 
+        block scripts 
+        block style 
+    body 
+        nav#navbar 
+            div#logo
+                img(src="/static/image/logo.png", alt="")
+                p HDA
+
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/about") About]
+                li #[a(href="/services") Services]
+                li #[a(href="/classinfo") Class Info]
+                li #[a(href="/contact") Contact Us]
+
+        block content 
+
+        footer#footer
+            | Copyright 2021 HarshDanceAcademy.com | All rights reserved!  

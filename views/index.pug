@@ -1,0 +1,73 @@
+//-index.pug
+doctype html
+html  
+    head
+        style  
+            include ../static/style.css
+    body 
+        nav#navbar 
+            div#logo
+                img(src="/static/image/logo.png", alt="")
+                p HDA
+
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]
+
+    section#introSection 
+        div Welcome to Harsh's Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+
+    section#missionSection
+
+        h2 Our Missions 
+
+        div.card 
+
+            h3 Dance Perfection
+
+            div.card-box 
+                div.card-img 
+                    img(src="/static/image/c1.png", alt="")
+                div.card-content 
+                    p This is the best Dance Academy of the Universe 
+
+        div.card 
+
+            h3 Dance the way you like 
+
+            div.card-box 
+                div.card-img 
+                    img(src="/static/image/c2.png", alt="")
+                div.card-content 
+                    p This is the best Dance Academy of the Universe  
+
+        div.card 
+
+            h3 Expert Teaching 
+
+            div.card-box 
+                div.card-img 
+                    img(src="/static/image/c3.png", alt="")
+                div.card-content 
+                    p This is the best Dance Academy of the Universe 
+
+    section#sponsorsSection 
+
+        h2    Our Sponsors 
+
+        div#sponsors 
+            img(src="/static/image/logo1.png", alt="sponsor image", class="spimage")
+            img(src="/static/image/logo2.png", alt="sponsor image", class="spimage")
+            img(src="/static/image/logo3.png", alt="sponsor image", class="spimage")
+            img(src="/static/image/logo4.png", alt="sponsor image", class="spimage")
+            
+
+    footer#footer
+        | Copyright 2021 HarshDanceAcademy.com | All rights reserved! 
+
+        script 
+            include ../static/index.js  

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Navigation Navigation Navigation Navigation Navigation Navigation Navigation Navigation Navigation */
+
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #d43b3b;
+    padding: 10px;
+    font-family: 'Petemoss', cursive;
+}
+
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: auto;
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    font-size: 2.5rem;
+}
+
+#navbar ul li a:hover{
+    color: black;
+}
+
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+#logo img{
+    height: 35px;
+    width: 35px;
+    filter: invert(100%);
+}
+
+#logo p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.container{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    background:url('/static/image/contact.jpg') no-repeat center center/cover;
+    
+}
+
+.container h1{
+    font-size: 5.5rem;
+    font-family: 'Petemoss', cursive;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 555px;
+    width: 100%;
+}
+
+.myform label{
+    display: inline;
+    color: white;
+    font-family: 'Petemoss', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.myinput{
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 15px;
+    outline: none;
+}
+
+.btn{
+    width: 100px;
+    padding: 5px 25px;
+    margin: 10px 180px;
+    font-size: 16px;
+    border: 2px #d43b3b;
+    border-radius: 15px;
+    color: white;
+    background-color: #d43b3b;
+    cursor: pointer;
+}
+
+/* footer section footer section footer section footer section footer section footer section */
+
+
+#footer{
+    background-color: black;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
+
+/* navigation navigation navigation navigation navigation navigation navigation navigation */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #d43b3b;
+    padding: 10px;
+    font-family: 'Petemoss', cursive;
+}
+
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: auto;
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    font-size: 2.5rem;
+}
+
+#navbar ul li a:hover{
+    color: black;
+}
+
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+#logo img{
+    height: 35px;
+    width: 35px;
+    filter: invert(100%);
+}
+
+#logo p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/* intro section intro section intro section intro section intro section intro section intro section */
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Petemoss', cursive;
+    font-size: 5.5rem;
+    background:url('/static/bg.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+.small{
+    font-size: 3.5rem;
+    padding: 10px;
+}
+
+
+/* mission section mission section mission section mission section mission section mission section */
+
+
+#missionSection{
+    height: 350px;
+}
+
+#missionSection h2{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Petemoss', cursive;
+    padding-top: 12px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 30%;
+    margin: 20px 20px;
+    height: 200px;
+}
+
+.card h3{
+    text-align: center;
+    font-family: 'Petemoss', cursive;
+    margin: 12px;
+    font-size: 30px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-img{
+    height: 100px;
+    padding: 10px 25px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 20px;
+
+}
+
+.card-content p{
+    font-size: 30px;
+    font-family: 'Petemoss', cursive;
+}
+
+
+/* sponsor section sponsor section sponsor section sponsor section sponsor section sponsor section */
+
+
+#sponsorsSection{
+    height: 350px;
+    background-color: #d43b3b95;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Petemoss', cursive;
+    padding-top: 12px;
+}
+
+#sponsors{
+    height: 170px;
+    max-width: 1500px;
+    margin: 25px auto;
+}
+
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+
+
+/* footer section footer section footer section footer section footer section footer section */
+
+
+#footer{
+    background-color: black;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
